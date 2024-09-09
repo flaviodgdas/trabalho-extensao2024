@@ -22,3 +22,10 @@ h2 {
 p {
     text-align: justify;
 }
+
+footer {
+    background-color: black;
+    size: 40dp;
+    color: aliceblue;
+    text-align: center;
+}
