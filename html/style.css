@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 body {
     background-color: blue;
     font-family: Arial, Helvetica, sans-serif;
@@ -13,6 +18,15 @@ h1 {
 
 nav {
     background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+nav > a:hover {
+    background-color: white;
+    color: black;
+    transition: background-color .5s;
 }
 
 h2 {
