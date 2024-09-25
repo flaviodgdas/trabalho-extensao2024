@@ -242,9 +242,10 @@ hr {
   margin-bottom: 6px;
 }
 /*definindo tamanhos dos itens*/
+/* Flex wrap coloca 2 posters por linha, pq a seção tem 600px */
 .product-image {
-  width: 240px; /* Flex wrap coloca 2 posters por linha, pq a seção tem 600px */
-  height: 144px;
+  width: 140px; 
+  height: 100px;
 }
 
 .product-price-container {
