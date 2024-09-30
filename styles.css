@@ -135,6 +135,14 @@ hr {
 .movie-title {
   font-family: "Rock Salt", cursive;
   color: var(--white);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .list-container {
@@ -213,6 +221,13 @@ hr {
 
 .buy-ticket-button {
   width: 20%; /* Ficou faltando 4% para 100% de width: para deixar as bordas sobrando um pouco */
+}
+
+.section-title-entrega {
+  color: rgb(8, 8, 8);
+  font-size: 20px;
+  
+
 }
 
 
@@ -410,7 +425,7 @@ hr {
     padding: 8px;
   }
 
-
+  
   .products-container {
     justify-content: center;
   }
