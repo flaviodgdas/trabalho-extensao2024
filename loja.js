@@ -99,9 +99,10 @@ function makePurchase() {
     alert("Seu carrinho está vazio!")
   } else {   
     alert(
-      `
+      ` Seus produtos:
+        \n
         Obrigado pela sua compra!
-        Valor do pedido: R$${totalAmount}\n
+        Valor do pedido: R$ ${totalAmount}\n
         Volte sempre :)
       `
     )
@@ -110,6 +111,7 @@ function makePurchase() {
     updateTotal()
   }
 }
+
 
 // Atualizar o valor total do carrinho
 function updateTotal() {
